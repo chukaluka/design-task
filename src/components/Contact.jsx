@@ -17,7 +17,7 @@ export default function Contact() {
           <h1 className='c-2h1'> Call Us</h1>
           <h2 className='c-2h2'>+234-806 749-700</h2>
         </div>
-        <div className='mb-6'>
+        <div className='mb-6 '>
           <img src={send} className='pb-3'/>
           <h1 className='c-2h1'>Send Email</h1>
           <h2 className='c-2h2'>revent@digital.com</h2>
