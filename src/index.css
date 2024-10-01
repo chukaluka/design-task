@@ -1,0 +1,205 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  background-color: black; /* Set the background color */
+}
+
+.contain-div {
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+nav {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 51px;
+  padding-right: 70px;
+}
+
+.f-div {
+  padding-right: 46px;
+}
+
+.f-h1 {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  line-height: 43.54px;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 25px;
+}
+
+.f-p {
+  font-size: 18px;
+  font-family: 400;
+  font-family: "Montserrat", sans-serif;
+  line-height: 27px;
+  margin-bottom: 37px;
+}
+
+button {
+  width: 246px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: rgba(252, 232, 47, 1);
+  border-width: 1px;
+  border-color: rgba(252, 232, 47, 1);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.header-icon {
+  padding-top: 28px;
+  padding-right: 20px;
+}
+
+.about-div {
+  padding-top: 100px;
+}
+
+.a-div {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36.57px;
+  padding-bottom: 59px;
+}
+
+.a-img {
+  height: 100vh;
+  width: 100vw;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+
+.a-h2 {
+  padding-top: 89px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24.38px;
+  padding-bottom: 25px;
+}
+
+.a-p {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 37px;
+}
+
+.resume-div {
+  padding-top: 100px;
+}
+
+.r-div {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.57px;
+  text-align: left;
+  padding-bottom: 36px;
+}
+
+.r-year {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.57px;
+  text-align: left;
+  padding-bottom: 24px;
+}
+
+.r-2h {
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26.82px;
+  text-align: left;
+  padding-bottom: 12px;
+}
+
+.r-2p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: left;
+
+}
+
+.portfolio-div {
+  padding-top: 100px;
+}
+
+.p-div {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.57px;
+
+}
+
+.p-2d {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  padding-top: 21px;
+  padding-bottom: 24px;
+}
+
+.p-2h1 {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 1);
+  width: 92px;
+  height: 50px;
+  color: black;
+}
+
+
+.contact-div {
+  padding-top: 100px;
+  padding-bottom: 136px;
+}
+
+.c-2h1 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.26px;
+  padding-bottom: 16px;
+}
+
+.c-2h2 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+}
+
+.div-form {
+  padding-top: 30px;
+}
+
+.div-2input {
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
+.div-3input {
+  padding-bottom: 29px;
+}
+
+.last-button {
+  width: 246px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: rgba(252, 232, 47, 1);
+  border-width: 1px;
+  border-color: rgba(252, 232, 47, 1);
+  font-family: "Poppins", sans-serif;
+}
