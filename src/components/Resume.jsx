@@ -15,7 +15,7 @@ export default function Resume() {
             <h1 className='r-year'>2017</h1>
             <h1 className='r-2h'>Louisanna State University</h1>
             <h1 className='r-2p'>Lorem Ipseum</h1>
-
+            <br/>
             <h1 className='r-year'>2018</h1>
             <h1 className='r-2h'>Havard EdX</h1>
             <h1 className='r-2p'>Principles of Design</h1>
@@ -24,7 +24,7 @@ export default function Resume() {
             <h1 className='r-year'>2019</h1>
             <h1 className='r-2h'>Udacity</h1>
             <h1 className='r-2p'>Product design</h1>
-
+            <br/>
             <h1 className='r-year'>2020</h1>
             <h1 className='r-2h'>Microsoft Partner</h1>
             <h1 className='r-2p'>Platinum</h1>
