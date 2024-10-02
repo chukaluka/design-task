@@ -10,13 +10,23 @@ export default function Portfolio() {
         <img src={shape1} />
       </div>
       
-      <div className='flex flex-row items-center justify-evenly text-white p-2d'>
-        <a href="#" className='flex justify-center items-center p-2h1'>All</a>
-        <a href="#">Website</a>
-        <a href="#">Mobile</a>
-        <a href="#">Css</a>
-        <a href="#">Github</a>
-      </div>
+      <ul className='flex flex-row items-center justify-evenly text-white p-2d'>
+        <li className='hover:underline transition duration-300'>          
+          <a href="#" className='flex justify-center items-center p-2h1'>All</a>
+        </li>
+        <li className='hover:underline transition duration-300'>          
+          <a href="#">Website</a>
+        </li>
+        <li className='hover:underline transition duration-300'>          
+          <a href="#">Mobile</a>
+        </li>
+        <li className='hover:underline transition duration-300'>          
+          <a href="#">Css</a>
+        </li>
+        <li className='hover:underline transition duration-300'>          
+          <a href="#">Github</a>
+        </li>
+      </ul>
 
       <div className='flex w-full space-x-4'>
         <div className='flex-1'>

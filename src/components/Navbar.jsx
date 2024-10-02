@@ -5,12 +5,20 @@ const Navbar = () => {
     <div>
       <nav>
           <div className="flex justify-end items-center">
-            <div className="hidden md:flex space-x-4">
-              <a href="#" className="text-yellow-400 pr-10">About Us</a>
-              <a href="#" className="text-white">Portfolio</a>
-              <a href="#" className="text-white">Experience</a>
-              <a href="#" className="text-white">Contact</a>
-            </div>
+            <ul className="hidden md:flex space-x-4 ">
+              <li className='hover:underline transition duration-300'>
+                <a href="#" className="text-yellow-400 pr-10">About Us</a>
+              </li>
+              <li className='hover:underline transition duration-300'>
+                <a href="#" className="text-white ">Portfolio</a>
+              </li>
+              <li className='hover:underline transition duration-300'>
+                <a href="#" className="text-white ">Experience</a>
+              </li>
+              <li className='hover:underline transition duration-300'>
+                <a href="#" className="text-white ">Contact</a>
+              </li>
+            </ul>
           </div>
       </nav>
     </div>
